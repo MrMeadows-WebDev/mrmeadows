@@ -189,7 +189,7 @@ body {
     }
     #cs-navigation .cs-logo {
       width: auto;
-      height: 2.5rem;
+      height: 4rem;
       margin: 0 auto 0 0;
       padding: 0;
       /* prevents padding from affecting height and width */
@@ -672,7 +672,7 @@ body {
     }
     #cs-navigation .cs-logo {
       /* 40px - 44px */
-      height: clamp(2.5rem, 4vw, 2.75rem);
+      height: clamp(2.5rem, 11vw, 7rem);
       /* margin-right auto pushes everything away from it to the right */
       margin: 0 auto 0 0;
       padding: 0;
