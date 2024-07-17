@@ -189,7 +189,7 @@ body {
     }
     #cs-navigation .cs-logo {
       width: auto;
-      height: 6rem;
+      height: 2.5srem;
       margin: 0 auto 0 0;
       padding: 0;
       /* prevents padding from affecting height and width */
@@ -205,6 +205,10 @@ body {
       height: 100%;
       /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
       object-fit: contain;
+    }
+    #cs-navigation span {
+      display: inline;
+      font-size: 20px;
     }
     #cs-navigation .cs-nav {
       order: 2;
@@ -686,6 +690,9 @@ body {
       height: 100%;
       /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
       object-fit: contain;
+    }
+    #cs-navigation span {
+      display: none;
     }
     #cs-navigation .cs-ul {
       width: 100%;
